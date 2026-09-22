@@ -1,0 +1,20 @@
+# Human-readable names for the language codes supported by xtts_v2 (model.languages).
+LANGUAGES = {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "it": "Italian",
+    "pt": "Portuguese",
+    "pl": "Polish",
+    "tr": "Turkish",
+    "ru": "Russian",
+    "nl": "Dutch",
+    "cs": "Czech",
+    "ar": "Arabic",
+    "zh-cn": "Chinese",
+    "hu": "Hungarian",
+    "ko": "Korean",
+    "ja": "Japanese",
+    "hi": "Hindi",
+}

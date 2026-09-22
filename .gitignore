@@ -1,0 +1,12 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python (general, project-specific rules live in each project's own .gitignore)
+__pycache__/
+*.py[cod]

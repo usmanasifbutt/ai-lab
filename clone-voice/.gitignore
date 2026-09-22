@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# TTS model cache (downloaded on first run)
+.tts_cache/
+
+# Generated audio output
+cloned-voice.wav
