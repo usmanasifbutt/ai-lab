@@ -6,9 +6,9 @@ from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv()
 
-FORMAT_MODEL = "gpt-4o-mini"
+FORMAT_MODEL = os.environ.get("OPENAI_FORMAT_MODEL", "gpt-4o-mini")
 # Used only when OPENAI_API_KEY isn't set - small enough to run on CPU.
-LOCAL_MODEL = "HuggingFaceTB/SmolLM2-360M-Instruct"
+LOCAL_MODEL = os.environ.get("LOCAL_FORMAT_MODEL", "HuggingFaceTB/SmolLM2-360M-Instruct")
 
 _SYSTEM_PROMPT = (
     "You clean up voice-dictated notes into well-formatted text.\n\n"

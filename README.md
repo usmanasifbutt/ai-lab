@@ -31,3 +31,5 @@ See each project's own `README.md` for what it does, prerequisites, and exact ru
 - [clone-voice](clone-voice/README.md) — voice cloning / text-to-speech using Coqui TTS (xtts_v2)
 - [voice-notes](voice-notes/README.md) — record a voice note, transcribe it, and clean it up into
   a formatted note using a LangChain agent (OpenAI, or a local model if no API key is set)
+- [jev-dino](jev-dino/README.md) — exploratory script: have TypeSafe AI's Jev model play the
+  Chrome dino-runner game, run via OpenRouter

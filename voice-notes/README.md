@@ -30,6 +30,13 @@ OPENAI_API_KEY=sk-...
 
 Leave it blank to use the local fallback model instead.
 
+Optionally override the model names too (defaults shown, both optional):
+
+```
+OPENAI_FORMAT_MODEL=gpt-4o-mini
+LOCAL_FORMAT_MODEL=HuggingFaceTB/SmolLM2-360M-Instruct
+```
+
 ## Running
 
 ```bash

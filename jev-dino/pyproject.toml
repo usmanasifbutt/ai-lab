@@ -1,0 +1,14 @@
+[project]
+name = "jev-dino"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Usman Asif", email = "usman.asif2208@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "playwright>=1.63.0",
+    "python-dotenv>=1.2.3",
+    "typesafe-sdk>=0.7.1",
+]
