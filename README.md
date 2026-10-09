@@ -33,3 +33,5 @@ See each project's own `README.md` for what it does, prerequisites, and exact ru
   a formatted note using a LangChain agent (OpenAI, or a local model if no API key is set)
 - [jev-dino](jev-dino/README.md) — exploratory script: have TypeSafe AI's Jev model play the
   Chrome dino-runner game, run via OpenRouter
+- [documentation-helper](documentation-helper/README.md) — RAG over a documentation site: crawl
+  with Tavily, embed with OpenAI, store in Pinecone, and answer questions with cited sources
